@@ -9,3 +9,10 @@ h3 {
 .mt {
     margin-top: 12px;
 }
+
+.white-text {
+    color: white;
+}
+.ext {
+    padding-top: 20px;
+}

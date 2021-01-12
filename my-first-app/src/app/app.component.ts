@@ -12,6 +12,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
    userName= '';
+   showSecret = false;
+   log = [];
+
+   onToggleDisplay() {
+     this.showSecret = !this.showSecret;
+     this.log.push(this.log.length + 1);
+   }
 }
-
-
